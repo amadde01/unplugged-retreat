@@ -110,9 +110,6 @@ header .content-wrapper {
   width: 60%;
 }
 
-header figure {
-
-}
 
 .header-divider {
  width: 100%;
@@ -451,7 +448,6 @@ aside .content-wrapper .form {
 
 .features .features-item-description, .fontawesome-icon {
   width: 50%;
-  text-align: justify;
 }
 
 /*-- Reviews --*/
@@ -534,7 +530,96 @@ footer .contact {
 }
 
 @media only screen and (min-width: 1200px) {
-    /*--- DESKTOP STYLES HERE ---*/
+    /*--- HOMEPAGE STYLES HERE ---*/
+    .content-wrapper {
+      max-width: 960px;
+    }
+
+    .hero-area  {
+      width: 70%;
+    }
+
+    aside .content-wrapper {
+      justify-content: space-around;
+      padding-left: 80px;
+
+    }
+
+    aside .content-wrapper .form,
+    aside .content-wrapper .form-description {
+      width: 33.33%;
+      justify-content: flex-start;
+    }
+
+    .features article {
+      flex-basis: 33.33%;
+    }
+
+    .features h1 {
+      width: 91%;
+      justify-content: flex-start;
+    }
+
+     .reviews div {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      margin: auto;
+    }
+
+
+    /*--- ABOUT STYLES ---*/
+
+  .mission-content {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    width: 97%;
+}
+
+  .mission-content h1 {
+    display: flex;
+    width: 80%;
+    font-size: 3em;
+  }
+
+
+  .contact-section h2 {
+    font-size: 3em;
+  }
+
+  .contact-section h3 {
+    font-size: 1.875em;
+  }
+
+  address {
+    justify-content: flex-start;
+    width: 88%;
+  }
+
+  .contact-content {
+    flex-basis: 44%;
+  }
+
+
+
+    /*--- FAQ STYLES ---*/
+
+ .faq .content-wrapper{
+   width: 98%;
+ }
+
+ .faq h1 {
+   width: 100%;
+   font-size: 3em;
+ }
+
+ .faq-content {
+   display: flex;
+   flex-basis: 45%;
+   flex-flow: column wrap;
+ }
 
 }
 

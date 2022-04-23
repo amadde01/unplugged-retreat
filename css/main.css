@@ -268,6 +268,9 @@ textarea {
     justify-content: center;
     align-items: center;
     background-image: url('../assets/features.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #e2e3ed;
   }
 
@@ -286,6 +289,16 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+  }
+
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
+  }
+
+  .fontawesome-icon {
+    display: flex;
+    justify-content: center;
   }
 
   .features-item-description {
@@ -355,8 +368,20 @@ textarea {
     justify-content: center;
     align-items: center;
     margin: 0;
+    flex-flow: column wrap;
   }
 
+  .social-icons article {
+    height: 40px;
+    width: 40px;
+    background-color: #527158;
+    border-radius: 50%;
+    margin: 0 20px;
+  }
+
+  .social-icons p {
+    padding: 25%;
+  }
 
   /*------------ Mobile styles - About page -------------*/
   .mission {
@@ -680,6 +705,7 @@ textarea {
     font-size: 1.5em;
   }
 
+
 /*------ About Page ------*/
 
   .mission-content {
@@ -792,16 +818,28 @@ textarea {
       width: 33.33%;
     }
 
+    .features {
+      padding-bottom: 80px;
+    }
+
     .features article {
       flex-basis: 33.33%;
-      margin: 95px 0;
     }
 
     .features h1 {
       width: 91%;
       justify-content: flex-start;
-      margin: 100px 0;
+      margin: 100px 0 70px;
       font-size: 2.25em;
+    }
+
+    .features .features-item-description {
+      width: 64%;
+    }
+
+  .features article .fontawesome-icon {
+      display: flex;
+      align-items: flex-start;
     }
 
      .reviews div {
@@ -821,6 +859,10 @@ textarea {
       font-size: 1.875em;
       width: 85%;
       margin: 0;
+    }
+
+    .social-icons p {
+
     }
 
 

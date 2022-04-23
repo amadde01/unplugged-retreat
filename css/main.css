@@ -371,7 +371,7 @@ textarea {
     flex-flow: column wrap;
   }
 
-  .social-icons article {
+  .social-icons p {
     height: 40px;
     width: 40px;
     background-color: #527158;
@@ -379,8 +379,8 @@ textarea {
     margin: 0 20px;
   }
 
-  .social-icons p {
-    padding: 25%;
+  .social-icons i {
+    padding-top: 30%;
   }
 
   /*------------ Mobile styles - About page -------------*/

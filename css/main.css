@@ -195,7 +195,7 @@ textarea {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
-    width: 60%;
+    width: 90%;
   }
 
   header nav ul {
@@ -203,7 +203,7 @@ textarea {
     justify-content: space-between;
     align-items: center;
     width: 45%;
-    padding: 35px 0;
+    padding: 35px 0px;
     margin: 0 0;
     list-style: none;
   }
@@ -230,12 +230,14 @@ textarea {
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
+   padding-bottom: 335px;
  }
 
+
  .hero-area h1 {
-   margin: 55px 0px;
+   margin: 55px 0px 0px;
    text-align: left;
-   padding-bottom: 330px;
+  /*-- padding-bottom: 330px;--*/
    color: #e2e3ed;
  }
 
@@ -248,12 +250,17 @@ textarea {
    flex-flow: row wrap;
  }
 
+ aside h3 {
+   margin: 30px 0 1px 0;
+   font-size: 1.125em;
+ }
+
   aside .form-description{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-flow: row wrap;
-    padding: 0 20px;
+    margin-bottom: 0;
   }
 
   aside .form {
@@ -465,7 +472,7 @@ textarea {
   /*--------FORM--------*/
 
   aside .form {
-    margin-top: 30px;
+  /*--  margin-top: 30px;--*/
     width: 100%;
   }
 
@@ -617,6 +624,8 @@ textarea {
   }
 
 /*-- Hero area --*/
+
+
 
   .hero-area h1 {
     font-size: 3em;

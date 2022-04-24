@@ -226,7 +226,7 @@ textarea {
    display: flex;
    justify-content: center;
    align-items: flex-start;
-   background-image: url('../assets/hero-image.jpg');
+   background-image: url('../assets/hero-mobile.jpg');
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -631,11 +631,15 @@ textarea {
     font-size: 3em;
   }
 
+  .hero-area {
+     background-image: url('../assets/hero-tablet.jpg');
+  }
+
 /*-- Aside --*/
 
   aside .content-wrapper {
     display: flex;
-    margin: 50px 0;
+    margin: 20px 0 50px;
     justify-content: space-between;
     flex-flow: row wrap;
     /*--padding: 50px 81px;--*/
@@ -806,6 +810,10 @@ textarea {
 
     p {
       font-size: 1.125em;
+    }
+
+    .hero-area {
+       background-image: url('../assets/hero-desktop.jpg');
     }
 
     .hero-area h1 {

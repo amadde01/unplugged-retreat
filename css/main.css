@@ -267,7 +267,7 @@ textarea {
     width: 90%;
     display: flex;
     flex-flow: column wrap;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 
   .features {
@@ -279,6 +279,7 @@ textarea {
     background-repeat: no-repeat;
     background-position: center;
     color: #e2e3ed;
+    padding: 30px 0;
   }
 
   .features p {
@@ -368,6 +369,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
   .social {
@@ -454,15 +456,19 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    margin: 50px 0 0 0;
+    margin: 30px 0 0 0;
   }
 
-  .faq h2 {
-    margin-bottom: 40px;
+  .faq h3 {
+    margin: 5px 0;
   }
 
   .faq-content {
-    margin-bottom: 50px;
+    margin-bottom: 45px;
+  }
+
+  .faq-content p {
+    margin: 0;
   }
 
   footer p{
@@ -585,6 +591,14 @@ textarea {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+@media only screen and (max-width: 430px) {
+  .social-icons p {
+    margin: 0 5px;
+  }
+
+
+  }
 
 @media only screen and (min-width: 768px) {
     /*--- TABLET STYLES HERE ---*/
@@ -770,12 +784,16 @@ textarea {
 
   .faq .content-wrapper {
     justify-content: space-between;
-    padding-bottom: 50px;
+    margin: 80px 0;
   }
 
   .faq-content {
     flex-basis: 46%;
-    margin: 0;
+    margin: 20px 0;
+  }
+
+  .faq h1 {
+    margin-bottom: 0;
   }
 
   .faq h2 {
